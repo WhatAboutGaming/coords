@@ -4,14 +4,14 @@ var bounds =                [  0,   0,   319, 239];
 var coords = {
 "Battle": {
 	"id": "b",
-	"Battle": {
+	"Battle": { // Unchanged?
 		"id": "b",
 		"Fight":            { "id": "f", "coords": [  0,  30,   319, 169], "ref": ["bf", "br"]  },
 		"Bag":              { "id": "b", "coords": [  0, 180,    94, 239], "ref": "bg"  },
 		"Run":              { "id": "r", "coords": [105, 185,   214, 239], "ref": "END" },
 		"Pokémon":          { "id": "p", "coords": [225, 180,   319, 239], "ref": "bp"  },
 	},
-	"Fight": {
+	"Fight": { // Unchanged?
 		"id": "f",
 		"Attack 1":         { "id": "1", "coords": [  0,  40,   159,  99], "ref": ["END", "bd", "bt"] },
 		"Attack 2":         { "id": "2", "coords": [160,  40,   319,  99], "ref": ["END", "bd", "bt"] },
@@ -22,7 +22,7 @@ var coords = {
 		"Shift Right":      { "id": "k", "coords": [ 50, 190,    99, 239], "ref": "END" }, // Triple battle
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  },
 	},
-	"Rotation battle": {
+	"Rotation battle": { // Unchaged?
 		"id": "r",
 		"Attack 1":         { "id": "1", "coords": [  0,  40,   159,  99], "ref": "END" },
 		"Attack 2":         { "id": "2", "coords": [160,  40,   319,  99], "ref": "END" },
@@ -33,7 +33,7 @@ var coords = {
 		"Rotate Right":     { "id": "k", "coords": [ 50, 190,    99, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  },
 	},
-	"Double battle": {
+	"Double battle": { // Unchanged?
 		"id": "d",
 		"Foe 1":            { "id": "1", "coords": [ 30,  40,   129,  99], "ref": "END" },
 		"Foe 2":            { "id": "2", "coords": [190,  40,   289,  99], "ref": "END" },
@@ -41,7 +41,7 @@ var coords = {
 		"Ally 2":           { "id": "b", "coords": [190, 115,   289, 174], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bf"  },
 	},
-	"Triple battle": {
+	"Triple battle": { // Unchanged?
 		"id": "t",
 		"Foe 1":            { "id": "1", "coords": [  0,  40,    99,  99], "ref": "END" },
 		"Foe 2":            { "id": "2", "coords": [110,  40,   209,  99], "ref": "END" },
@@ -51,43 +51,43 @@ var coords = {
 		"Ally 3":           { "id": "c", "coords": [220, 115,   319, 174], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bf"  },
 	},
-	"Bag": {
+	"Bag": { // Done
 		"id": "g",
-		"Restore":          { "id": "r", "coords": [  0,  10,   159,  89], "ref": "bq"  },
-		"Balls":            { "id": "b", "coords": [160,  10,   319,  89], "ref": "bq"  },
-		"Status":           { "id": "s", "coords": [  0,  95,   159, 174], "ref": "bq"  },
-		"Battle items":     { "id": "i", "coords": [160,  95,   319, 174], "ref": "bq"  },
-		"Last used":        { "id": "u", "coords": [  0, 185,   249, 239], "ref": "bi"  },
-		"Cancel":           { "id": "x", "coords": [250, 185,   319, 239], "ref": "bb"  },
+		"Restore":          { "id": "r", "coords": [  0,  20,   160,  88], "ref": "bq"  }, // Unchanged?
+		"Balls":            { "id": "b", "coords": [160,  35,   319, 103], "ref": "bq"  },
+		"Status":           { "id": "s", "coords": [  0,  90,   160, 158], "ref": "bq"  }, // Unchanged?
+		"Battle items":     { "id": "i", "coords": [160, 105,   319, 173], "ref": "bq"  },
+		"Last used":        { "id": "u", "coords": [  5, 195,   244, 237], "ref": "bi"  }, // Unchanged?
+		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  }, // Unchanged?
 	},
-	"Pocket": {
+	"Pocket": { // Done
 		"id": "q",
 		"Item 1":           { "id": "1", "coords": [  0,  10,   156,  59], "ref": "bi"  },
-		"Item 2":           { "id": "2", "coords": [163,  10,   319,  59], "ref": "bi"  },
-		"Item 3":           { "id": "3", "coords": [  0,  70,   156, 119], "ref": "bi"  },
-		"Item 4":           { "id": "4", "coords": [163,  70,   319, 119], "ref": "bi"  },
-		"Item 5":           { "id": "5", "coords": [  0, 130,   156, 179], "ref": "bi"  },
-		"Item 6":           { "id": "6", "coords": [163, 130,   319, 179], "ref": "bi"  },
-		"Previous":         { "id": "j", "coords": [  0, 185,    54, 239], "ref": "bq"  },
-		"Next":             { "id": "k", "coords": [ 70, 185,   119, 239], "ref": "bq"  },
-		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bg"  },
+		"Item 2":           { "id": "2", "coords": [164,  15,   319,  65], "ref": "bi"  },
+		"Item 3":           { "id": "3", "coords": [  0,  65,   156, 121], "ref": "bi"  },
+		"Item 4":           { "id": "4", "coords": [164,  71,   319, 126], "ref": "bi"  },
+		"Item 5":           { "id": "5", "coords": [  0, 121,   156, 172], "ref": "bi"  },
+		"Item 6":           { "id": "6", "coords": [164, 127,   319, 177], "ref": "bi"  },
+		"Previous":         { "id": "j", "coords": [  0, 185,    54, 239], "ref": "bq"  }, // Unchanged?
+		"Next":             { "id": "k", "coords": [ 70, 185,   119, 239], "ref": "bq"  }, // Unchanged?
+		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bg"  }, // Unchanged?
 	},
-	"Item": {
+	"Item": { // Unchanged? // Done
 		"id": "i",
 		"Use":              { "id": "u", "coords": [  0, 160,   249, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 185,   319, 239], "ref": "bq"  },
 	},
-	"Pokémon": { // Also for "use item on"
+	"Pokémon": { // Also for "use item on" // Done
 		"id": "p",
-		"Pokémon 1":        { "id": "1", "coords": [  0,   0,   159,  53], "ref": "bs"  },
-		"Pokémon 2":        { "id": "2", "coords": [160,   8,   319,  58], "ref": "bs"  },
-		"Pokémon 3":        { "id": "3", "coords": [  0,  63,   159, 113], "ref": "bs"  },
-		"Pokémon 4":        { "id": "4", "coords": [160,  68,   319, 118], "ref": "bs"  },
-		"Pokémon 5":        { "id": "5", "coords": [  0, 123,   159, 173], "ref": "bs"  },
-		"Pokémon 6":        { "id": "6", "coords": [160, 128,   319, 178], "ref": "bs"  },
+		"Pokémon 1":        { "id": "1", "coords": [  0,   0,   159,  57], "ref": "bs"  },
+		"Pokémon 2":        { "id": "2", "coords": [160,   8,   319,  65], "ref": "bs"  },
+		"Pokémon 3":        { "id": "3", "coords": [  0,  60,   159, 117], "ref": "bs"  },
+		"Pokémon 4":        { "id": "4", "coords": [160,  67,   319, 124], "ref": "bs"  },
+		"Pokémon 5":        { "id": "5", "coords": [  0, 120,   159, 177], "ref": "bs"  },
+		"Pokémon 6":        { "id": "6", "coords": [160, 127,   319, 184], "ref": "bs"  },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  },
 	},
-	"Switch": {
+	"Switch": { // Unchanged?
 		"id": "s",
 		"Switch":           { "id": "s", "coords": [  0,  40,   319, 149], "ref": "END" },
 		"Restore":          { "id": "r", "coords": [  0, 160,   249, 189], "ref": "bq"  },
@@ -95,20 +95,20 @@ var coords = {
 		"Check moves":      { "id": "m", "coords": [130, 195,   249, 224], "ref": "NEW" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bp"  },
 	},
-	"Nickname": {
+	"Nickname": { // Done
 		"id": "n",
-		"Yes":              { "id": "y", "coords": [ 20,  80,   299, 139], "ref": "zk"  },
-		"No":               { "id": "x", "coords": [ 20, 150,   299, 209], "ref": "END" },
+		"Yes":              { "id": "y", "coords": [ 20,  85,   299, 134], "ref": "zk"  },
+		"No":               { "id": "x", "coords": [ 20, 155,   299, 204], "ref": "END" },
 	},
-	"Delete move": {
+	"Delete move": { // Done
 		"id": "o",
-		"Forget":           { "id": "f", "coords": [ 20,  80,   299, 139], "ref": "bl"  },
-		"Keep old":         { "id": "k", "coords": [ 20, 150,   299, 209], "ref": "bu"  },
+		"Forget":           { "id": "f", "coords": [ 20,  85,   299, 134], "ref": "bl"  },
+		"Keep old":         { "id": "k", "coords": [ 20, 155,   299, 204], "ref": "bu"  },
 	},
-	"Give up move": {
+	"Give up move": { // Done
 		"id": "u",
-		"Give up":          { "id": "g", "coords": [ 20,  80,   299, 139], "ref": "END" },
-		"Don't give up":    { "id": "d", "coords": [ 20, 150,   299, 209], "ref": "bo"  },
+		"Give up":          { "id": "g", "coords": [ 20,  85,   299, 134], "ref": "END" },
+		"Don't give up":    { "id": "d", "coords": [ 20, 155,   299, 204], "ref": "bo"  },
 	},
 	"Replace move": {
 		"id": "l",
