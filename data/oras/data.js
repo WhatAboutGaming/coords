@@ -121,7 +121,7 @@ var coords = {
 	},
 	"Forget move": {
 		"id": "e",
-		"Forget":           { "id": "f", "coords": [ 80, 180,   246, 234], "ref": "END" },
+		"Forget":           { "id": "f", "coords": [ 80, 183,   246, 237], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bl"  },
 	},
 },
