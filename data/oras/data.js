@@ -87,7 +87,7 @@ var coords = {
 		"Pokémon 6":        { "id": "6", "coords": [160, 127,   319, 184], "ref": "bs"  },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  },
 	},
-	"Switch": { // Unchanged?
+	"Switch": { // Unchanged? // Done
 		"id": "s",
 		"Switch":           { "id": "s", "coords": [  0,  40,   319, 149], "ref": "END" },
 		"Restore":          { "id": "r", "coords": [  0, 160,   249, 189], "ref": "bq"  },
@@ -110,7 +110,7 @@ var coords = {
 		"Give up":          { "id": "g", "coords": [ 20,  85,   299, 134], "ref": "END" },
 		"Don't give up":    { "id": "d", "coords": [ 20, 155,   299, 204], "ref": "bo"  },
 	},
-	"Replace move": { // Mostly unchanged, but extra button
+	"Replace move": { // Mostly unchanged, but extra button // Done
 		"id": "l",
 		"Move 1":           { "id": "1", "coords": [  0,  49,   159, 102], "ref": "be"  },
 		"Move 2":           { "id": "2", "coords": [160,  49,   319, 102], "ref": "be"  },
@@ -119,7 +119,7 @@ var coords = {
 		"New move":         { "id": "m", "coords": [ 80, 175,   239, 239], "ref": "NEW" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bo"  },
 	},
-	"Forget move": {
+	"Forget move": { // Buttons sizes changed // Done
 		"id": "e",
 		"Forget":           { "id": "f", "coords": [ 80, 183,   246, 237], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bl"  },
