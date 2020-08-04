@@ -110,7 +110,7 @@ var coords = {
 		"Give up":          { "id": "g", "coords": [ 20,  85,   299, 134], "ref": "END" },
 		"Don't give up":    { "id": "d", "coords": [ 20, 155,   299, 204], "ref": "bo"  },
 	},
-	"Replace move": {
+	"Replace move": { // Mostly unchanged, but extra button
 		"id": "l",
 		"Move 1":           { "id": "1", "coords": [  0,  49,   159, 102], "ref": "be"  },
 		"Move 2":           { "id": "2", "coords": [160,  49,   319, 102], "ref": "be"  },
@@ -121,7 +121,7 @@ var coords = {
 	},
 	"Forget move": {
 		"id": "e",
-		"Forget":           { "id": "f", "coords": [ 10, 180,   249, 234], "ref": "END" },
+		"Forget":           { "id": "f", "coords": [ 80, 180,   246, 234], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bl"  },
 	},
 },
