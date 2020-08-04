@@ -53,10 +53,10 @@ var coords = {
 	},
 	"Bag": { // Done
 		"id": "g",
-		"Restore":          { "id": "r", "coords": [  0,  20,   160,  88], "ref": "bq"  }, // Unchanged?
-		"Balls":            { "id": "b", "coords": [160,  35,   319, 103], "ref": "bq"  },
-		"Status":           { "id": "s", "coords": [  0,  90,   160, 158], "ref": "bq"  }, // Unchanged?
-		"Battle items":     { "id": "i", "coords": [160, 105,   319, 173], "ref": "bq"  },
+		"Restore":          { "id": "r", "coords": [  0,  20,   159,  88], "ref": "bq"  }, // Unchanged?
+		"Balls":            { "id": "b", "coords": [161,  35,   319, 103], "ref": "bq"  },
+		"Status":           { "id": "s", "coords": [  0,  90,   159, 158], "ref": "bq"  }, // Unchanged?
+		"Battle items":     { "id": "i", "coords": [161, 105,   319, 173], "ref": "bq"  },
 		"Last used":        { "id": "u", "coords": [  5, 195,   244, 237], "ref": "bi"  }, // Unchanged?
 		"Cancel":           { "id": "x", "coords": [250, 190,   319, 239], "ref": "bb"  }, // Unchanged?
 	},
