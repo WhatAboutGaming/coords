@@ -1,0 +1,244 @@
+@font-face {
+	font-family: 'Alto Pro';
+	font-weight: normal;
+	font-style: normal;
+	src: local('Alto Pro'), url('fonts/AltoPro-Normal.otf');
+}
+@font-face {
+	font-family: 'Alto Pro';
+	font-weight: bold;
+	font-style: normal;
+	src: local('Alto Pro Bold'), local('Alto Pro'), url('fonts/AltoPro-Bold.otf');
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	min-width: 1200px;
+	margin: 0;
+	font-family: 'Alto Pro', 'Segoe UI', 'Trebuchet MS', sans-serif;
+}
+.tm {
+	color: #aaa;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#toc {
+	line-height: 1.5;
+}
+#toc ul {
+	padding: 0 0 1em 1em;
+	font-size: 0.8em;
+	display: none;
+}
+#toc > .active > ul {
+	display: block;
+}
+#toc a {
+	display: block;
+	padding: 0 4px;
+}
+#toc .active > a {
+	background: #eee;
+}
+
+#instructions > ul > li {
+	padding-bottom: 0.5em;
+}
+
+section {
+	float: left;
+	box-sizing: border-box;
+	padding: 1em 1em;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+section:first-of-type { padding-left:  2em; }
+section:last-of-type  { padding-right: 2em; }
+.contents { width: 14%; }
+.if       { width: 43%; }
+.then     { width: 43%; }
+#↑ {
+	position: relative;
+	top: -1em;
+}
+
+#coords-hover {
+	padding: 0.1em 0.3em;
+}
+#coords-click {
+	margin: 0 0.1em;
+	padding: 0 0.3em;
+	border: 1px solid #aaa;
+	font: inherit;
+	width: 4em;
+}
+#coords-click.valid {
+	border-color: #ea5;
+	outline-color: #ea5;
+}
+#coords-click.invalid {
+	border-color: #d55;
+	outline-color: #d55;
+}
+.errors {
+	color: #d55;
+	font-weight: bold;
+}
+
+input.noclick {
+	outline: none;
+}
+
+.layers {
+	background: #e6e6e6;
+	/*border: 0.5px solid #bbb;*/
+	border-radius: 2px;
+	position: relative;
+}
+.layers canvas, .layers img {
+	position: absolute;
+	left: 0; top: 0;
+	width: 100%;
+}
+.menu-heading .layers {
+	cursor: pointer;
+}
+.menu-heading .layers:hover canvas { opacity: 0.75; }
+.menu-heading .layers img { opacity: 0; }
+.menu-heading .layers:hover img { opacity: 1; }
+
+.contrib-image, .contrib-screen {
+	font-size: 0.8em;
+}
+
+.category h2 {
+	margin-top: 2em;
+	border-left: 6px solid #bbb;
+	padding-left: 0.5em;
+	font-weight: normal;
+}
+
+.menu {
+	margin: -0.5em;
+	margin-bottom: 3em;
+	padding: 0.5em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.menu > div {
+	vertical-align: top;
+	display: inline-block;
+}
+.menu-heading {
+	width: 10em;
+	margin-right: 2em;
+}
+.menu-heading h3 {
+	position: relative;
+	margin: 0 0 0.5em;
+}
+.menu-heading h3 label {
+	display: block;
+}
+.menu-heading .toggle {
+	font-size: 0.8em;
+}
+.menu-heading .layers {
+	margin-top: 0.5em;
+}
+.menu-list {
+	width: 17em;
+}
+
+.rekt {
+	padding: 0.25em 0;
+}
+.rekt input {
+	width: 10%;
+	margin: 0;
+	vertical-align: middle;
+}
+.rekt label {
+	display: inline-block;
+}
+.rekt span.name {
+	display: inline-block;
+	width: 10em;
+}
+.rekt small {
+	box-sizing: border-box;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 1px 4px;
+	width: 5.5em;
+	font-size: 0.7em;
+}
+
+.permalink a:link, .permalink a:visited {
+	color: #aaa;
+}
+.permalink {
+	font-weight: normal;
+	visibility: hidden;
+}
+label:hover .permalink {
+	visibility: visible;
+}
+
+.refs {
+	font-size: 0.8em;
+	color: #bbb;
+}
+.refs .triangle {
+	margin-left: 10%;
+	margin-right: 0.2em;
+}
+.refs .NEW {
+	color: #b55;
+}
+.refs .END {
+	color: #5b5;
+}
+
+.overlap {
+	display: inline-block;
+	min-width: 12em;
+}
+
+a:link, a:visited {
+	color: #24b;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#scale-main-slider {
+	width: 7em;
+	vertical-align: middle;
+}
+
+body.instructions-disabled #instructions,
+body.grid-disabled #grid,
+body.rekt-small-disabled .rekt small > span,
+body.refs-disabled .refs {
+	display: none;
+}
+body.rekt-small-disabled .rekt small {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+[id]:target {
+	background: #ff8;
+}
+#premium:not(:target) {
+	display: none;
+}
