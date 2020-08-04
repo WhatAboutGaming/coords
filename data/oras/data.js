@@ -1,5 +1,5 @@
 var game = 'oras';
-var game_name = 'ORAS';
+var game_name = 'oras';
 var bounds =                [  0,   0,   319, 239];
 var coords = {
 "Screens": {
