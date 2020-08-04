@@ -2,7 +2,7 @@ var game = 'oras';
 var game_name = 'ORAS';
 var bounds =                [  0,   0,   319, 239];
 var coords = {
-"Battle": {
+"Battle": { // Done
 	"id": "b",
 	"Battle": { // Unchanged?
 		"id": "b",
@@ -127,7 +127,7 @@ var coords = {
 },
 "Overworld": {
 	"id": "o",
-	"Overworld": {
+	"Overworld": { // Unknown
 		"id": "a",
 		"Pokémon":          { "id": "p", "coords": [  0,  40,   159,  79], "ref": "op"  },
 		"Pokédex":          { "id": "d", "coords": [160,  40,   319,  79], "ref": "NEW" },
@@ -137,7 +137,7 @@ var coords = {
 		"Options":          { "id": "o", "coords": [160, 160,   319, 199], "ref": "oo"  },
 		"Quit":             { "id": "q", "coords": [285, 210,   314, 239], "ref": "END" },
 	},
-	"Bag": {
+	"Bag": { // Unchanged
 		"id": "b",
 		"Items":            { "id": "A", "coords": [  1,   4,    32,  35], "ref": "   " },
 		"Medicine":         { "id": "B", "coords": [ 33,   4,    64,  35], "ref": "   " },
@@ -162,25 +162,25 @@ var coords = {
 		"Quit":             { "id": "q", "coords": [245, 210,   274, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [285, 210,   314, 239], "ref": "oa"  },
 	},
-	"Bag item": {
+	"Bag item": { // Unchanged
 		"id": "i",
 		"Use":              { "id": "u", "coords": [230, 120,   319, 149], "ref": "   " },
 		"Give":             { "id": "g", "coords": [230, 150,   319, 179], "ref": "   " },
 		"Discard":          { "id": "t", "coords": [230, 180,   319, 209], "ref": "ot"  },
 		"Cancel":           { "id": "x", "coords": [230, 210,   319, 239], "ref": "ob"  },
 	},
-	"Key item": {
+	"Key item": { // Unchanged
 		"id": "k",
 		"Use":              { "id": "u", "coords": [230, 150,   319, 179], "ref": "   " }, // "Walk" when on bike
 		"Register":         { "id": "r", "coords": [230, 180,   319, 209], "ref": "   " },
 		"Cancel":           { "id": "x", "coords": [230, 210,   319, 239], "ref": "ob"  },
 	},
-	"TM item": {
+	"TM item": { // Unchanged
 		"id": "h",
 		"Use":              { "id": "u", "coords": [230, 180,   319, 209], "ref": "oH" },
 		"Cancel":           { "id": "x", "coords": [230, 210,   319, 239], "ref": "ob"  },
 	},
-	"TM Pokémon": {
+	"TM Pokémon": { // Unchanged
 		"id": "H",
 		"Pokémon 1":        { "id": "1", "coords": [  3,  41,   154,  73], "ref": "oC"  },
 		"Pokémon 2":        { "id": "2", "coords": [  3,  74,   154, 106], "ref": "oC"  },
@@ -190,17 +190,17 @@ var coords = {
 		"Pokémon 6":        { "id": "6", "coords": [  3, 206,   154, 238], "ref": "oC"  },
 		"Cancel":           { "id": "x", "coords": [285, 210,   314, 239], "ref": "END" },
 	},
-	"TM teach": {
+	"TM teach": { // Unchanged
 		"id": "C",
 		"Yes":              { "id": "y", "coords": [230,  70,   319,  99], "ref": "oL"  },
 		"No":               { "id": "x", "coords": [230, 100,   319, 129], "ref": "END" },
 	},
-	"TM delete": {
+	"TM delete": { // Unchanged
 		"id": "L",
 		"Yes":              { "id": "y", "coords": [230,  70,   319,  99], "ref": "ol"  },
 		"No":               { "id": "x", "coords": [230, 100,   319, 129], "ref": "om"  },
 	},
-	"TM move": {
+	"TM move": { // Unchanged
 		"id": "l",
 		"Move 1":           { "id": "1", "coords": [140,   0,   319,  39], "ref": "   " },
 		"Move 2":           { "id": "2", "coords": [140,  40,   319,  79], "ref": "   " },
@@ -209,24 +209,24 @@ var coords = {
 		"Forget":           { "id": "f", "coords": [140, 170,   319, 209], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [280, 210,   309, 239], "ref": "END" },
 	},
-	"TM give up": {
+	"TM give up": { // Unchanged
 		"id": "m",
 		"Yes":              { "id": "y", "coords": [230,  70,   319,  99], "ref": "END" },
 		"No":               { "id": "x", "coords": [230, 100,   319, 129], "ref": "oL"  },
 	},
-	"Trash count": {
+	"Trash count": { // Unknown
 		"id": "t",
 		"Trash":            { "id": "t", "coords": [208,  87,   314, 143], "ref": "ou"  },
 		"More":             { "id": "j", "coords": [208, 144,   314, 171], "ref": "   " },
 		"Less":             { "id": "k", "coords": [208, 172,   314, 199], "ref": "   " },
 		"Cancel":           { "id": "x", "coords": [283, 200,   312, 229], "ref": "ob"  },
 	},
-	"Trash confirm": {
+	"Trash confirm": { // Unchanged?
 		"id": "u",
 		"Yes":              { "id": "y", "coords": [230,  70,   319,  99], "ref": "END" },
 		"No":               { "id": "x", "coords": [230, 100,   319, 129], "ref": "ob"  },
 	},
-	"Pokémon": {
+	"Pokémon": { // Unchanged
 		"id": "p",
 		"Pokémon 1":        { "id": "1", "coords": [  0,   0,   159,  66], "ref": "od"  },
 		"Pokémon 2":        { "id": "2", "coords": [160,  15,   319,  74], "ref": "od"  },
@@ -239,7 +239,7 @@ var coords = {
 		"Quit":             { "id": "q", "coords": [240, 210,   269, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [280, 210,   309, 239], "ref": "oa"  },
 	},
-	"Pokémon Do": {
+	"Pokémon Do": { // Unchanged?
 		"id": "d",
 		"Summary":          { "id": "w", "coords": [220,  60,   319,  89], "ref": "   " },
 		"Use move":         { "id": "m", "coords": [220,  90,   319, 119], "ref": "   " },
@@ -252,14 +252,14 @@ var coords = {
 		"Move 3":           { "id": "3", "coords": [130, 150,   219, 179], "ref": "   " },
 		"Move 4":           { "id": "4", "coords": [130, 180,   219, 209], "ref": "   " },
 	},
-	"Pokémon Item": {
+	"Pokémon Item": { // Unchanged
 		"id": "j",
 		"Use/Give":         { "id": "g", "coords": [230, 120,   319, 149], "ref": "   " }, // "Read" when holding mail
 		"Take":             { "id": "t", "coords": [230, 150,   319, 179], "ref": "   " },
 		"Move":             { "id": "m", "coords": [230, 180,   319, 209], "ref": "   " },
 		"Back":             { "id": "q", "coords": [230, 210,   319, 239], "ref": "op"  },
 	},
-	"Options": {
+	"Options": { // Unchanged
 		"id": "o",
 		"Speed Prev":       { "id": "A", "coords": [145,  45,   164,  74], "ref": "   " },
 		"Speed Next":       { "id": "a", "coords": [295,  45,   314,  74], "ref": "   " },
@@ -275,15 +275,15 @@ var coords = {
 		"Confirm":          { "id": "u", "coords": [100, 210,   209, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [210, 210,   319, 239], "ref": "oO"  }, // Button label is actually "Quit"
 	},
-	"Options save": {
+	"Options save": { // Unchanged
 		"id": "O",
 		"Yes":              { "id": "y", "coords": [190,  60,   319,  89], "ref": "END" },
 		"No":               { "id": "n", "coords": [190,  90,   319, 119], "ref": "END" },
 	},
 },
-"PSS": {
+"PSS": { // Unknown
 	"id": "s",
-	"PSS": {
+	"PSS": { // Unknown
 		"id": "s",
 		"Pokémon":          { "id": "p", "coords": [ 30, 210,    59, 239], "ref": "op"  },
 		"Pokédex":          { "id": "d", "coords": [ 76, 210,   105, 239], "ref": "NEW" },
@@ -296,7 +296,7 @@ var coords = {
 		"Internet":         { "id": "i", "coords": [215,   0,   244,  29], "ref": "NEW" },
 		"Next":             { "id": "k", "coords": [285,   0,   319,  24], "ref": "NEW" },
 	},
-	"Apps 1": {
+	"Apps 1": { // Unknown
 		"id": "a",
 		"Battle":           { "id": "1", "coords": [ 70,  30,   109,  69], "ref": "NEW" },
 		"Trade":            { "id": "2", "coords": [210,  30,   249,  69], "ref": "NEW" },
@@ -307,7 +307,7 @@ var coords = {
 		"Next":             { "id": "k", "coords": [295, 100,   319, 139], "ref": "sA"  },
 		"Cancel":           { "id": "x", "coords": [290, 210,   319, 239], "ref": "ss"  },
 	},
-	"Apps 2": {
+	"Apps 2": { // Unknown
 		"id": "A",
 		"GTS":              { "id": "1", "coords": [ 70,  30,   109,  69], "ref": "NEW" },
 		"Game Sync":        { "id": "2", "coords": [210,  30,   249,  69], "ref": "NEW" },
@@ -318,7 +318,7 @@ var coords = {
 		"Previous":         { "id": "j", "coords": [  0, 100,    24, 139], "ref": "sa"  },
 		"Cancel":           { "id": "x", "coords": [290, 210,   319, 239], "ref": "ss"  },
 	},
-	"O-Power": {
+	"O-Power": { // Unknown
 		"id": "o",
 		"Power 1":          { "id": "1", "coords": [ 65,   5,   304,  34], "ref": "sO"  },
 		"Power 2":          { "id": "2", "coords": [ 65,  35,   304,  64], "ref": "sO"  },
@@ -329,7 +329,7 @@ var coords = {
 		"Scroll":           { "id": "i", "coords": [305,  20,   319, 169], "ref": "   " },
 		"Cancel":           { "id": "x", "coords": [280, 210,   309, 239], "ref": "sA"  },
 	},
-	"O-Power use": {
+	"O-Power use": { // Unknown
 		"id": "O",
 		"Use":              { "id": "y", "coords": [  0, 210,   109, 239], "ref": "END" },
 		"Cancel":           { "id": "x", "coords": [220, 210,   319, 239], "ref": "so"  },
@@ -337,22 +337,22 @@ var coords = {
 },
 "PC": {
 	"id": "p",
-	"PC": {
+	"PC": { // Unchanged
 		"id": "p",
 		"Cassius":          { "id": "c", "coords": [ 20,  35,   299,  64], "ref": "pc"  },
 		"Professor":        { "id": "p", "coords": [ 20,  85,   299, 114], "ref": "   " },
-		"PR Videos":        { "id": "v", "coords": [ 20, 135,   299, 164], "ref": "   " },
+		"Records":          { "id": "v", "coords": [ 20, 135,   299, 164], "ref": "   " },
 		"Power Off":        { "id": "q", "coords": [ 20, 185,   299, 214], "ref": "   " },
 	},
-	"Cassius": {
+	"Cassius": { // Unchanged
 		"id": "c",
-		"Deposit":          { "id": "d", "coords": [ 20,  25,   299,  54], "ref": "pd"  },
-		"Withdraw":         { "id": "w", "coords": [ 20,  65,   299,  94], "ref": "pw"  },
-		"Boxes":            { "id": "b", "coords": [ 20, 105,   299, 134], "ref": "   " },
+		"Boxes":            { "id": "d", "coords": [ 20,  25,   299,  54], "ref": "pd"  },
+		"Deposit":          { "id": "w", "coords": [ 20,  65,   299,  94], "ref": "pw"  },
+		"Withdraw":         { "id": "b", "coords": [ 20, 105,   299, 134], "ref": "   " },
 		"Items":            { "id": "i", "coords": [ 20, 145,   299, 174], "ref": "   " },
 		"Log Out":          { "id": "q", "coords": [ 20, 185,   299, 214], "ref": "pp"  },
 	},
-	"Deposit": {
+	"Deposit": { // Unchanged
 		"id": "d",
 		"Pokémon 1":        { "id": "1", "coords": [ 50,  45,    99,  84], "ref": "   " },
 		"Pokémon 2":        { "id": "2", "coords": [100,  65,   149, 104], "ref": "   " },
@@ -366,7 +366,7 @@ var coords = {
 		"Release":          { "id": "r", "coords": [210, 140,   319, 169], "ref": "pr"  },
 		"Cancel":           { "id": "x", "coords": [210, 170,   319, 199], "ref": "   " },
 	},
-	"Withdraw": {
+	"Withdraw": { // Unchanged
 		"id": "w",
 		"Withdraw":         { "id": "d", "coords": [210,  50,   319,  79], "ref": "   " },
 		"Summary":          { "id": "w", "coords": [210,  80,   319, 109], "ref": "   " },
@@ -374,17 +374,17 @@ var coords = {
 		"Release":          { "id": "r", "coords": [210, 140,   319, 169], "ref": "pr"  },
 		"Cancel":           { "id": "x", "coords": [210, 170,   319, 199], "ref": "   " },
 	},
-	"Release": {
+	"Release": { // Unchanged
 		"id": "r",
 		"Yes":              { "id": "y", "coords": [230, 140,   319, 169], "ref": "   " },
 		"No":               { "id": "x", "coords": [230, 170,   319, 199], "ref": "   " },
 	},
-	"Continue": {
+	"Continue": { // Unchanged
 		"id": "q",
 		"Yes":              { "id": "y", "coords": [230, 140,   319, 169], "ref": "   " },
 		"No":               { "id": "x", "coords": [230, 170,   319, 199], "ref": "pc"  },
 	},
-	"Box": {
+	"Box": { // Unchanged
 		"id": "b",
 		"Previous box":     { "id": "j", "coords": [  0,  15,    19,  44], "ref": "   " },
 		"Next box":         { "id": "k", "coords": [190,  15,   209,  44], "ref": "   " },
@@ -422,9 +422,9 @@ var coords = {
 		"Quit":             { "id": "q", "coords": [280, 210,   309, 239], "ref": "pq"  },
 	},
 },
-"Misc": { /* (nicknames, Pokéathlon, etc.) */
+"Misc": { /* (nicknames, Pokéathlon, etc.) */ // Unknown
 	"id": "z",
-	"Fly": {
+	"Fly": { // Unused?
 		"id": "f",
 		"Vaniville Town":   { "id": "A", "coords": [207, 175,   216, 184], "ref": "   " },
 		"Aquacorde Town":   { "id": "B", "coords": [207, 151,   216, 160], "ref": "   " },
@@ -447,7 +447,7 @@ var coords = {
 		"Quit":             { "id": "q", "coords": [245, 210,   274, 239], "ref": "   " },
 		"Cancel":           { "id": "x", "coords": [285, 210,   314, 239], "ref": "   " },
 	},
-	"Name lower": {
+	"Name lower": { // Unchanged, probably?
 		"id": "k",
 		"A":                { "id": "A", "coords": [ 30,  50,    49,  79], "ref": "   " },
 		"B":                { "id": "B", "coords": [ 50,  50,    69,  79], "ref": "   " },
@@ -501,7 +501,7 @@ var coords = {
 		"Delete":           { "id": "z", "coords": [150, 200,   209, 229], "ref": "   " },
 		"OK":               { "id": "y", "coords": [210, 200,   289, 229], "ref": "   " },
 	},
-	"Name keyboard": {
+	"Name keyboard": { // Unchanged, probably?
 		"id": "q",
 		"!":                { "id": "h", "coords": [ 20,  60,    39,  89], "ref": "   " },
 		"♂":                { "id": "e", "coords": [ 40,  60,    59,  89], "ref": "   " },
@@ -554,13 +554,13 @@ var coords = {
 		"Shift":            { "id": "1", "coords": [230, 200,   289, 229], "ref": "   " },
 		"Grid":             { "id": "q", "coords": [  0, 120,    24, 159], "ref": "zk"  },
 	},
-	"Daycare store": {
+	"Daycare store": { // Unchanged, probably?
 		"id": "d",
 		"Leave":            { "id": "s", "coords": [200, 150,   319, 179], "ref": "   " },
 		"Summary":          { "id": "w", "coords": [200, 180,   319, 209], "ref": "   " },
 		"Back":             { "id": "q", "coords": [200, 210,   319, 239], "ref": "   " },
 	},
-	"Starters": {
+	"Starters": { // Unknown
 		"id": "s",
 		"Chespin":          { "id": "A", "coords": [ 60, 115,    89, 144], "ref": "   " },
 		"Fennekin":         { "id": "B", "coords": [145, 115,   174, 144], "ref": "   " },
