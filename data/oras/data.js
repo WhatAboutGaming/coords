@@ -1,4 +1,4 @@
-var game = 'ORAS';
+var game = 'oras';
 var game_name = 'ORAS';
 var bounds =                [  0,   0,   319, 239];
 var coords = {
